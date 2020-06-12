@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-family: inherit;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+
+body{
+    font-family: 'B612';
+    font-size: 1rem;
+}
+
+header{
+    text-align: center;
+    width: 100%;
+    font-size: 5rem;
+    margin: 2rem 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Mukta Malar';
+}
+
+h1{
+    color: darkgrey;
+    font-weight: 100;
+    font-size: 7rem;
+    font-family: 'Mukta Malar';
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+article{
+    display: flex;
+}
+
+article img{
+    width: 50%;
+}
+
+article div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+article div h2{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+article div p{
+    color: darkslategray;
+    font-weight: 1.8rem;
+    margin-bottom:2rem;
+    text-align: center;
+}
+
+button {
+    position: relative;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    color: #383736;
+    border: 2px #383736 solid;
+    border-radius: 4px;
+    text-transform: uppercase;
+    outline: 0;
+    overflow:hidden;
+    background: none;
+    cursor: pointer;
+    transition:         0.08s ease-in;
+    -o-transition:      0.08s ease-in;
+    -ms-transition:     0.08s ease-in;
+    -moz-transition:    0.08s ease-in;
+    -webkit-transition: 0.08s ease-in;
+  }
+
+  button a{
+      text-decoration: none;
+      color: #383736;
+      padding: 2rem 1.2rem;
+  }
+
+  button a:hover{
+      text-decoration: none;
+      color:whitesmoke;
+  }
+  
+  .fill:hover {
+    color: whitesmoke;
+  }
+  
+  .fill:before {
+    content: "";
+    position: absolute;
+    background: #383736;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: -1;
+    -webkit-transition: top 0.09s ease-in;
+  }
+  
+  .fill:hover:before {
+    top: 0;
+  }
+
+
+  section{
+      margin-bottom: 18rem;
+  }
+
+
+  div.progress{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 3rem;
+  }
+
+  div.progress img{
+      width: 33%;
+      height: auto;
+  }
+
+  div.progress div{
+      width: 33%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  div.progress div h2{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  div.progress div p{
+      text-align: center;
+      margin-top: 2rem;
+      margin-right: 1rem;
+  }
+
+  footer p{
+      text-align: center;
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+  }
+
